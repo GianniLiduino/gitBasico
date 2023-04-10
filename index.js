@@ -5,6 +5,7 @@ const mysql = require('mysql');
 const app = express()
 
 const port = 8080;
+const port2 = 8081;
 
 const connection = mysql.createConnection({
     host: 'localhost',
